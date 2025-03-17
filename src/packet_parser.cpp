@@ -30,7 +30,7 @@ std::set<uint32_t> findMissingSequences(const std::vector<Packet>& packets) {
 
     std::unordered_set<uint32_t> available_seq;
 
-    uint32_t expected = packets.front().sequence;
+    // uint32_t expected = 1;
     uint32_t max_seq = packets.back().sequence;
     for (const auto& packet : packets) {
         // while (expected < packet.sequence) {
@@ -40,7 +40,7 @@ std::set<uint32_t> findMissingSequences(const std::vector<Packet>& packets) {
         available_seq.insert(packet.sequence);
     }
 
-    for (const auto& packet : packets) {
+    for (uint32_t expected = 1; expected < max_seq; expected ++) {
         if (available_seq.find(expected) == available_seq.end()) {
             missing.insert(expected);
         }

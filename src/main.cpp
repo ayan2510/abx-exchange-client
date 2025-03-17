@@ -22,13 +22,21 @@ int main() {
         std::cout << packet.symbol << " " << packet.price << " " << packet.quantity << " " << packet.sequence << " " << packet.side << std::endl;
     }
 
+    client.close();
+
     auto missingSequences = findMissingSequences(packets);
     for (auto seq : missingSequences) {
+        std::cout << seq << std::endl;
         client.requestMissingPacket(seq);
-        auto missingData = client.receiveData();
+        auto missingData = client.receiveMissingData();
+        // printVector(missingData);
         auto missingPackets = parsePackets(missingData);
         packets.insert(packets.end(), missingPackets.begin(), missingPackets.end());
     }
+
+    std::sort(packets.begin(), packets.end(), [](const Packet& a, const Packet& b) {
+        return a.sequence < b.sequence;
+    });
 
     writePacketsToJson(packets, "output.json");
     client.close();

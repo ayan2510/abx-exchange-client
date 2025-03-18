@@ -3,17 +3,18 @@ project(ABX_Exchange_Client)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Include the header files (Ensure it points to the "include/" directory)
+# Include the header files
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-# Add all source files, including main.cpp
+# Add all source files
 add_executable(abx_client
-    ${CMAKE_SOURCE_DIR}/src/main.cpp         # Ensure this contains the "main()" function
+    ${CMAKE_SOURCE_DIR}/src/main.cpp       
     ${CMAKE_SOURCE_DIR}/src/client.cpp
     ${CMAKE_SOURCE_DIR}/src/packet_parser.cpp
     ${CMAKE_SOURCE_DIR}/src/json_writer.cpp
+    ${CMAKE_SOURCE_DIR}/src/logger.cpp
 )
 
-# Link Boost (if required for TCP communication)
+# Link Boost
 find_package(Boost REQUIRED)
 target_link_libraries(abx_client Boost::boost)

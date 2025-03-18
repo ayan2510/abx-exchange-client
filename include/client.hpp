@@ -14,7 +14,9 @@ public:
     void requestPackets();
     void requestMissingPacket(uint32_t sequence);
     std::vector<uint8_t> receiveData();
+    std::vector<uint8_t> receiveMissingData();
     void close();
+    void reconnect();
 
 private:
     boost::asio::io_context io_context;

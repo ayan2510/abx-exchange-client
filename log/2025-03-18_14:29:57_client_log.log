@@ -1,0 +1,3 @@
+[2025-03-18 14:29:57] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:10 in main) Starting client application
+[2025-03-18 14:29:57] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:15 in Client) ERROR: Connection failed: connect: Connection refused [system:111 at /usr/include/boost/asio/detail/reactive_socket_service.hpp:589 in function 'connect']
+[2025-03-18 14:29:57] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:63 in main) ERROR: Exception occurred: connect: Connection refused [system:111 at /usr/include/boost/asio/detail/reactive_socket_service.hpp:589 in function 'connect']

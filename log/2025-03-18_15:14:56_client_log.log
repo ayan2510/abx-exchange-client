@@ -1,0 +1,71 @@
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:100 in main) Starting client application
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:17 in Client) Connected to localhost:3000
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:111 in main) Connected to server at localhost:3000
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:58 in requestPackets) Requesting all packets.
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:49 in sendRequest) Sent request - Type: 1, Sequence: 0
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:116 in main) Requested packets from server
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:94 in receiveData) Server closed the connection.
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:100 in receiveData) Received 187 bytes of data.
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:120 in main) Received 187 bytes of data
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:81 in parsePackets) Starting packet parsing. Data size: 187
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AAPL, Side=66, Quantity=50, Price=100, Sequence=1
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AAPL, Side=66, Quantity=30, Price=98, Sequence=2
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AAPL, Side=83, Quantity=20, Price=101, Sequence=3
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=META, Side=66, Quantity=40, Price=50, Sequence=5
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=META, Side=83, Quantity=30, Price=55, Sequence=6
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=META, Side=83, Quantity=20, Price=57, Sequence=7
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=MSFT, Side=66, Quantity=25, Price=150, Sequence=8
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=MSFT, Side=66, Quantity=20, Price=148, Sequence=10
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AMZN, Side=66, Quantity=5, Price=2999, Sequence=12
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AMZN, Side=83, Quantity=15, Price=3020, Sequence=13
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AMZN, Side=83, Quantity=10, Price=3015, Sequence=14
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:107 in parsePackets) Finished packet parsing. Total packets: 11
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:124 in main) Parsed 11 packets
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: AAPL, Price: 100, Quantity: 50, Sequence: 1, Side: 66
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: AAPL, Price: 98, Quantity: 30, Sequence: 2, Side: 66
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: AAPL, Price: 101, Quantity: 20, Sequence: 3, Side: 83
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: META, Price: 50, Quantity: 40, Sequence: 5, Side: 66
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: META, Price: 55, Quantity: 30, Sequence: 6, Side: 83
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: META, Price: 57, Quantity: 20, Sequence: 7, Side: 83
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: MSFT, Price: 150, Quantity: 25, Sequence: 8, Side: 66
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: MSFT, Price: 148, Quantity: 20, Sequence: 10, Side: 66
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: AMZN, Price: 2999, Quantity: 5, Sequence: 12, Side: 66
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: AMZN, Price: 3020, Quantity: 15, Sequence: 13, Side: 83
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:128 in main) Packet - Symbol: AMZN, Price: 3015, Quantity: 10, Sequence: 14, Side: 83
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:129 in close) Socket closed.
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:135 in main) Closed initial connection
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:114 in findMissingSequences) Finding missing sequences. Total packets: 11
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:138 in findMissingSequences) Missing sequence found: 4
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:138 in findMissingSequences) Missing sequence found: 9
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:138 in findMissingSequences) Missing sequence found: 11
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:142 in findMissingSequences) Finished finding missing sequences. Total missing: 3
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:140 in main) Found 3 missing sequences
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:145 in main) Requesting missing packet: 4
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:68 in requestMissingPacket) Socket closed. Reconnecting...
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:34 in reconnect) Reconnected to localhost:3000
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:72 in requestMissingPacket) Requesting missing packet: 4
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:49 in sendRequest) Sent request - Type: 2, Sequence: 4
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:122 in receiveMissingData) Received 17 bytes of missing data.
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:152 in main) Received 17 bytes of missing data
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:81 in parsePackets) Starting packet parsing. Data size: 17
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AAPL, Side=83, Quantity=10, Price=102, Sequence=4
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:107 in parsePackets) Finished packet parsing. Total packets: 1
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:145 in main) Requesting missing packet: 9
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:72 in requestMissingPacket) Requesting missing packet: 9
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:49 in sendRequest) Sent request - Type: 2, Sequence: 9
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:122 in receiveMissingData) Received 17 bytes of missing data.
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:152 in main) Received 17 bytes of missing data
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:81 in parsePackets) Starting packet parsing. Data size: 17
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=MSFT, Side=83, Quantity=15, Price=155, Sequence=9
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:107 in parsePackets) Finished packet parsing. Total packets: 1
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:145 in main) Requesting missing packet: 11
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:72 in requestMissingPacket) Requesting missing packet: 11
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:49 in sendRequest) Sent request - Type: 2, Sequence: 11
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/client.cpp:122 in receiveMissingData) Received 17 bytes of missing data.
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:152 in main) Received 17 bytes of missing data
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:81 in parsePackets) Starting packet parsing. Data size: 17
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:100 in parsePackets) Parsed packet: Symbol=AMZN, Side=66, Quantity=10, Price=3000, Sequence=11
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/packet_parser.cpp:107 in parsePackets) Finished packet parsing. Total packets: 1
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/json_writer.cpp:37 in writePacketsToJson) Successfully wrote 14 packets to JSON file: ../outputs/output_2025-03-18_15-14-56.json
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:176 in main) Data saved to ../outputs/output_2025-03-18_15-14-56.json
+[2025-03-18 15:14:56] (/home/ayanava/Desktop/ABX/abx-exchange-client/src/main.cpp:184 in main) Client application finished successfully

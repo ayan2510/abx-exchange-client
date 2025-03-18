@@ -26,6 +26,10 @@ sudo apt install cmake libboost-all-dev nlohmann-json3-dev -y
 To run the project, simply execute the `run.sh` script:
 
 ```bash
-./run.sh
+bash run.sh
 ```
 
+## Output and Logs
+
+- Check the output files inside the `outputs` folder.
+- Logs can be found inside the `log` folder.

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Set the client directory (adjust if needed)
+# Set the client directory
 CLIENT_DIR="$(dirname "$0")"
 
 # Navigate to the client directory
